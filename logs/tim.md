@@ -8,3 +8,18 @@ Monday 14 June:
 - Downloading Kaggle data to Colab
 - Recovering personal Drive data accidentally deleted from Colab
 
+Tuesday 15 June:
+- Still recovering Drive data
+- Image data augmentations that I expect may work:
+    - Zoom
+    - Tilt
+    - Shift
+    - Mirroring
+- Image data augmentations that I expect may be counterproductive:
+    - Brightness
+    - Stretch
+
+- Physical meetup with group:
+    - For pair programming, I functioned as 'pilot'
+    - Write documentation and create sections in colab
+    - Write in report file (section 2, 3 and 4)
