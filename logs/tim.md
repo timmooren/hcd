@@ -23,3 +23,8 @@ Tuesday 15 June:
     - For pair programming, I functioned as 'pilot'
     - Write documentation and create sections in colab
     - Write in report file (section 2, 3 and 4)
+
+Wednesday 16 June:
+- Ran dropout model with more epochs
+- Written and ran two new models
+- Recovering Drive data
