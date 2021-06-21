@@ -18,6 +18,7 @@ Tuesday 15 June:
 - Image data augmentations that I expect may be counterproductive:
     - Brightness
     - Stretch
+Further reading: https://librepathology.org/wiki/Lymph_node_metastasis
 
 - Physical meetup with group:
     - For pair programming, I functioned as 'pilot/driver'
