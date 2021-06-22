@@ -63,3 +63,4 @@ Monday 21 June:
 Tuesday 22 June:
 - Ran base model with ROI = 32x32 and 48x48
 - Ran batchnorm model with ROI = 48x48 and write analysis
+- Conclusion: ROI does not improve our model
