@@ -51,7 +51,7 @@ Sunday 20 June:
 - Reread the data description and discovered that the images are 96x96, while we are using a 32x32 input on the CNN
 - Adjusted the base model to 96x96 and ran it again, but did not have enough RAM
 
-Monday 22 June:
+Monday 21 June:
 - Rewritten load_data() in the hope that this approach takes up less memory in order to prevent Colab from crashing (https://stackoverflow.com/questions/11784329/python-memory-usage-of-numpy-arrays)
 - Purchased Colab Pro, adjestued and re-ran networks to 48x48 input (rather than 32x32)
 - Adding more markdown comments and structure to the notebook
@@ -60,6 +60,6 @@ Monday 22 June:
 - Written crop image function so we can focus on the region of interest for the next milestone
 - Interesting things for next iteration: lower learning rate, focussing on region of interest (https://towardsdatascience.com/understanding-region-of-interest-part-1-roi-pooling-e4f5dd65bb44)
 
-Tuesday 32 June:
+Tuesday 22 June:
 - Ran base model with ROI = 32x32 and 48x48
 - Ran batchnorm model with ROI = 48x48 and write analysis
