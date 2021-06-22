@@ -60,3 +60,6 @@ Monday 22 June:
 - Written crop image function so we can focus on the region of interest for the next milestone
 - Interesting things for next iteration: lower learning rate, focussing on region of interest (https://towardsdatascience.com/understanding-region-of-interest-part-1-roi-pooling-e4f5dd65bb44)
 
+Tuesday 32 June:
+- Ran base model with ROI = 32x32 and 48x48
+- Ran batchnorm model with ROI = 48x48 and write analysis
