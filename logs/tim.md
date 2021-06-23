@@ -67,3 +67,8 @@ Tuesday 22 June:
 - Conclusion: ROI and rotation range do not improve our model
 - Ran batchnorm with zoonn
 - Tomorrow:  ask again about accuracy fluctuations 
+
+Wednsesday 23 June:
+- Batch normalization + ROI = 32x32 + learning rate = 0.0001
+- Running an even deeper model + higher dropout
+- Writing analyses in Colab and reorganizing the chapters
