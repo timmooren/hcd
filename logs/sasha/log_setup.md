@@ -1,5 +1,0 @@
-# LOG
-
-# LINKS
-
-# TOMORROW
