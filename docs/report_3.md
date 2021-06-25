@@ -26,7 +26,7 @@ pathologist. [2,3]
 
 *Img. 1 Example of effect of magnification. [7]*
 
-*![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone1/I2_example_WSI.png)*
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone1/I2_example_WSI.png)
 
 *Img. 2 Example of WSI. Tumour tissue has been annotated in blue. [7]*
 
@@ -584,7 +584,7 @@ than its specificity for our purposes.
 
 ### Input normalization
 
-![](media/5c91229d6ee64fee922958b37e11bd56.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone2/G2_preprossesing_LR_001_20_epochs_resize_32.png)
 
 *Graph: Model loss and accuracy for the preprocessing model.*
 
@@ -602,7 +602,7 @@ naked eye).
 In order to counteract the overfitting seen in the last model, we have added
 dropout to the network to increase its robustness.
 
-![](media/13a0761e056c727462cdaf961b08022c.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone2/G3_dropout_LR_001_30_epochs_resize_32.png)
 
 *Graph: Model loss and accuracy for the dropout model.*
 
@@ -615,7 +615,7 @@ and scale again.
 After having solved overfitting in the previous model, we made an attempt to
 make the network deeper.
 
-![](media/e1ee2c25acc3354208147725f3d13b09.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone2/G4_deeper_LR_001_epochs_50_resise_32.png)
 
 *Graph: Model loss and accuracy for the deeper model.*
 
@@ -630,7 +630,7 @@ hypotheses could solve it.
 Our first approach to solve the strong fluctuation of training and validation
 accuracy was to add batch normalization between different layers of the network.
 
-![](media/27fb75f778e853d284124014ec3cef8f.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone2/G5_batchnorm_LR_001_epochs_50_resise_32.png)
 
 *Graph: Model loss and accuracy for the batch normalization model.*
 
@@ -662,7 +662,7 @@ beneficial effect, we disqualified this as a possible improvement to our model.
 
 ### Learning rate 0.0001
 
-![](media/6900f1ecb3aeb83fe3fa2ea591b0df5e.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone2/G6_batchnorm_LR_0001_epochs_50_resise_32.png)
 
 *Graph: Model loss and accuracy for the batch normalization model with learning
 rate = 0.0001.*
@@ -682,7 +682,7 @@ fluctuations and accuracy.
 
 ##### Batch size 10
 
-![](media/24ec77fc4ab296e683645ae3822046eb.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone2/G7_batchsize_10_LR_001_epochs_40_resise_32.png)
 
 *Graph: Model loss and accuracy for the batch normalization model with batch
 size 10*
@@ -693,7 +693,7 @@ stayed mostly the same.
 
 ##### Batch size 50
 
-![](media/88bfae97f4d71be14d1b3d8bf5040010.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone2/G8_batchsize_50_LR_001_epochs_40_resise_32.png)
 
 *Graph: Model loss and accuracy for the batch normalization model with batch
 size 50*
@@ -708,7 +708,7 @@ validation. Accuracy has not increased overall either.
 
 ### L2 Regularization
 
-![](media/cf6a5b280d6a47e69df80b327f3f0765.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone2/G9_L2reg_LR_001_epochs_40_resise_32.png)
 
 *Graph: Model loss and accuracy for the batch normalization model with L2
 normalization*
@@ -905,7 +905,7 @@ labeled positive, if at least one of these 32 pixels belongs to a cancer cell.
 Since many cells are lost due to the cropping, it could be more difficult for
 the model to learn why certain patches are labeled positive.
 
-![](media/31ff9b16952977d73565b2958b4684bd.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone3/G10_baseline_LR_001_epochs_20_crop_32.png)
 
 *Graph: Model loss and accuracy for the baseline model with crop size 32x32*px
 
@@ -913,7 +913,7 @@ Overall the training loss and accuracy of the 48x48 model is better than the
 32x32 model. The validation accuracy plateaus quicker. This probably has to do
 with the larger amount of data/information per sample.
 
-![](media/d3f3f8aeeae672f63f7adf0dbddb5308.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone3/G11_baseline_LR_001_epochs_20_crop_48.png)
 
 *Graph: Model loss and accuracy for the baseline model with crop size 48x48*px
 
@@ -953,14 +953,15 @@ no L2) Models 1, 2, and 3 were trained for 70, 60 and 40 epochs respectively.
 
 ### Section 4: Model evaluation
 
-![](media/27fb75f778e853d284124014ec3cef8f.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone2/G5_batchnorm_LR_001_epochs_50_resise_32.png)
 
 *Graph: Model without data augmentations*
 
-![](media/c4c66d9104fe5888bb3fe2ca852d6cb5.png)*Graph: Horizontal + vertical
-flip*
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone3/G12_batchnorm_LR_001_epochs_70_resise_32_aug_flip_horizontal_vertical.png)
+*Graph: Horizontal + vertical flip*
 
-![](media/fb085063901798b2e7d7c4c1078a7adb.png)*Graph: Zoom range*
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone3/G13_batchnorm_LR_001_epochs_60_resise_32_aug_zoom.png)
+*Graph: Zoom range*
 
 As can be seen in the graphs above, the results for the horizontal and vertical
 flip condition and the zoom range condition do not differ much from the results
@@ -971,7 +972,7 @@ epochs, the data augmentations could perhaps confer a benefit by allowing our
 model to continue training for longer, because of the increased training
 dataset.
 
-![](media/4ad7d8420c41e0577f7efbb4e86109e3.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone3/G14_batchnorm_LR_001_epochs_40_resise_32_aug_rotation.png)
 
 *Graph: Rotation range*
 
@@ -1076,7 +1077,7 @@ this had an effect.
 
 #### Dropout rate of 40 percent
 
-![](media/bb3ad871810c7ecb517828155e788d40.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone3/G15_deeper2_LR_001_epochs_70_resise_32_dropout_40.png)
 
 Graph: *Graph: Loss and accuracy for the even deeper model with dropout = 0.4*
 
@@ -1087,7 +1088,7 @@ compensate for the increase in network nodes. This produced the graph below.
 
 #### Dropout rate of 60 percent
 
-![](media/4054d768fddd8cce3a05bb95226b60d0.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone3/G16_deeper2_LR_001_epochs_70_resise_32_dropout_60.png)
 
 Graph: *Graph: Loss and accuracy for the even deeper model with dropout = 0.6*
 
@@ -1129,7 +1130,7 @@ each model.
 
 #### Batch normalization model
 
-![](media/243aebef56c07d5f71c11ecca7e649da.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G17_batchnorm_LR_001_epochs_100_resize_32.png)
 
 *Graph: Batch normalization network with more epochs*
 
