@@ -72,3 +72,12 @@ Wednsesday 23 June:
 - Batch normalization + ROI = 32x32 + learning rate = 0.0001
 - Running an even deeper model + higher dropout
 - Writing analyses in Colab and reorganizing the chapters
+
+Thursday 24 June:
+- For pair programming, I functioned as pilot
+- Implemented recall and confusion matrix
+- Tried to implement Adadelta
+- Ran final 2 networks with more epochs and recall + confusion matrix
+- Written chapter 3 and 4
+- Interesting for tomorrow: looking at cross-model and pathologist-model confusion matrix, and running adelta for learning rate decay, looking 
+
