@@ -21,7 +21,7 @@ By Sasha Peerdeman, Tim Mooren and Jack Pieters
 
 # Table of contents:
 
-### Milestone 1
+### Milestone 1 
 
 ### Ch. 1: Baseline model
 
@@ -41,7 +41,9 @@ By Sasha Peerdeman, Tim Mooren and Jack Pieters
 
 ### Ch. 4: Final model comparison
 
-# 
+### Discussion
+
+### Conclusion
 
 # 
 
@@ -55,13 +57,8 @@ By Sasha Peerdeman, Tim Mooren and Jack Pieters
 
 # 
 
-# 
+#   
 
-# 
-
-# 
-
-# 
 
 # Milestone 1: Baseline Model
 
@@ -1141,7 +1138,7 @@ training data.
 
 ![](media/8af64147290e2756d275b8a5baf5df3f.png)
 
-![]([https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G18_deeper_LR_0001_epochs_100_resize_32.png](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G18\_deeper_LR_001_epochs_100_resize_32.png))
+![]([https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G18_deeper_LR_0001_epochs_100_resize_32.png](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G18_deeper_LR_001_epochs_100_resize_32.png))
 
 *Graph 18: Model loss, accuracy and recall for deeper batch normalization
 network (100 epochs)*
@@ -1170,7 +1167,7 @@ the validation loss and accuracy seen in many of our models.
 
 ![](media/eaff5c08b28e9e71aaaf62fa56e82e15.png)
 
-![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G19_adagrad_LR_0001_epochs_100\_resize_32.png)
+![]([https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G19_adagrad_LR_0001_epochs_100_resize_32.png](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G19_adagrad_LR_001_epochs_100_resize_32.png))
 
 *Graph 19: Model loss, accuracy and recall for AdaDelta batch normalization
 model*
@@ -1244,7 +1241,7 @@ pathologists in the clinic of the future.
 
 References:
 
->   1.
+>   1\. 
 >   <https://www.kaggle.com/c/histopathologic-cancer-detection/overview><https://www.kaggle.com/c/histopathologic-cancer-detection/overview>
 
 >   2\. Ehteshami Bejnordi et al. Diagnostic Assessment of Deep Learning
@@ -1253,7 +1250,7 @@ References:
 >   2199–2210.
 >   <https://doi.org/10.1001/jama.2017.14585>[doi:jama.2017.14585](https://doi.org/10.1001/jama.2017.14585)
 
->   3\. https://github.com/basveeling/pcam
+>   3\. <https://github.com/basveeling/pcam>
 
 >   4\. Veeling, B. S., Linmans, J., Winkens, J., Cohen, T., & Welling, M. (2018,
 >   September). Rotation equivariant CNNs for digital pathology. In
@@ -1261,10 +1258,11 @@ References:
 >   intervention* (pp. 210-218). Springer, Cham.
 >   <http://arxiv.org/abs/1806.03962>[arXiv:1806.03962](http://arxiv.org/abs/1806.03962)
 
+>   5.
 >   <https://stats.stackexchange.com/questions/294349/hard-mining-hard-examples-does-hard-mean-anything-specific-in-stat>[SP2]
 
 >   6.
->   <https://sci-hub.se/https:/www.sciencedirect.com/science/article/abs/pii/S0925231219316984>[https://sci-hub.se/https://www.sciencedirect.com/science/article/abs/pii/S0925231219316984](https://sci-hub.se/https:/www.sciencedirect.com/science/article/abs/pii/S0925231219316984)
+>   [https://sci-hub.se/https://www.sciencedirect.com/science/article/abs/pii/S0925231219316984](https://sci-hub.se/https:/www.sciencedirect.com/science/article/abs/pii/S0925231219316984)
 
->   7.
+>   7\. 
 >   <https://camelyon16.grand-challenge.org/Data/><https://camelyon16.grand-challenge.org/Data/>
