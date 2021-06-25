@@ -13,13 +13,15 @@ microscopic lymph node sections
 
 ![](media/60c288d8ee4d64bf2b372147bd3a1725.jpg)
 
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone1/60c288d8ee4d64bf2b372147bd3a1725.jpg)
+
 # 
 
 By Sasha Peerdeman, Tim Mooren and Jack Pieters
 
 # Table of contents:
 
-### Milestone 1 
+### Milestone 1
 
 ### Ch. 1: Baseline model
 
@@ -1124,7 +1126,7 @@ producing an accurate matrix in time.
 
 ![](media/243aebef56c07d5f71c11ecca7e649da.png)
 
-![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G17_batchnorm\_LR_0001_epochs_100_resize_32.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G17_batchnorm_LR_0001_epochs_100_resize_32.png)
 
 *Graph 17: Model loss, accuracy and recall for batch normalization network (100
 epochs)*
@@ -1139,7 +1141,7 @@ training data.
 
 ![](media/8af64147290e2756d275b8a5baf5df3f.png)
 
-![]([https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G18_deeper_LR_0001_epochs_100_resize_32.png](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G18_deeper_LR_001_epochs_100_resize_32.png))
+![]([https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G18_deeper_LR_0001_epochs_100_resize_32.png](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G18\_deeper_LR_001_epochs_100_resize_32.png))
 
 *Graph 18: Model loss, accuracy and recall for deeper batch normalization
 network (100 epochs)*
@@ -1168,7 +1170,7 @@ the validation loss and accuracy seen in many of our models.
 
 ![](media/eaff5c08b28e9e71aaaf62fa56e82e15.png)
 
-![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G19_adagrad_LR_0001_epochs_100_resize_32.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone4/G19_adagrad_LR_0001_epochs_100\_resize_32.png)
 
 *Graph 19: Model loss, accuracy and recall for AdaDelta batch normalization
 model*
@@ -1242,7 +1244,7 @@ pathologists in the clinic of the future.
 
 References:
 
->   1\. 
+>   1.
 >   <https://www.kaggle.com/c/histopathologic-cancer-detection/overview><https://www.kaggle.com/c/histopathologic-cancer-detection/overview>
 
 >   2\. Ehteshami Bejnordi et al. Diagnostic Assessment of Deep Learning
@@ -1259,11 +1261,10 @@ References:
 >   intervention* (pp. 210-218). Springer, Cham.
 >   <http://arxiv.org/abs/1806.03962>[arXiv:1806.03962](http://arxiv.org/abs/1806.03962)
 
->   5.
 >   <https://stats.stackexchange.com/questions/294349/hard-mining-hard-examples-does-hard-mean-anything-specific-in-stat>[SP2]
 
->   6\. 
+>   6.
 >   <https://sci-hub.se/https:/www.sciencedirect.com/science/article/abs/pii/S0925231219316984>[https://sci-hub.se/https://www.sciencedirect.com/science/article/abs/pii/S0925231219316984](https://sci-hub.se/https:/www.sciencedirect.com/science/article/abs/pii/S0925231219316984)
 
->   7\. 
+>   7.
 >   <https://camelyon16.grand-challenge.org/Data/><https://camelyon16.grand-challenge.org/Data/>
