@@ -81,3 +81,7 @@ Thursday 24 June:
 - Written chapter 3 and 4
 - Interesting for tomorrow: looking at cross-model and pathologist-model confusion matrix, and running adelta for learning rate decay, looking 
 
+Thursday 25 June:
+- ran the models with adagrad implementation
+- rewritten confusion matrix and tried to print it correctly this time (did not work unnfortunately)
+- final structuring of Colab notebook and merging with other notebooks we have made
