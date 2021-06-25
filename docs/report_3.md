@@ -22,11 +22,11 @@ with a 20x (0.243 µ/pixel) and 40x (0.226 µ/pixel) objective lens respectively
 These WSI were annotated by students, which were supervised and checked by
 pathologist. [2,3]
 
-![](media/0561f3b50f09baae31f7bc8a7ade2246.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone1/I1_magnification_effect.png)
 
 *Img. 1 Example of effect of magnification. [7]*
 
-*![](media/1ed5e4e5e606849cb0004797d16bd57f.png)*
+*![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone1/I2_example_WSI.png)*
 
 *Img. 2 Example of WSI. Tumour tissue has been annotated in blue. [7]*
 
@@ -58,7 +58,7 @@ containing tumor tissue only outside the centre did not receive a positive
 label. This border was merely added to ensure the data could be used by models
 that don’t use zero-padding on their images.[3]
 
-![](media/ca70b7bf35f5b32afec30a97b01d9537.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone1/I3_PCam_example.jpg)
 
 *Img. 3 Example images from the PCam dataset. Centres of patches have been
 coloured green.*
@@ -80,7 +80,7 @@ We have split the labelled training dataset further, resulting in a training set
 (70%, 154018 samples) and validation set (30%, 66008 samples), which we used to
 evaluate the training of our model.
 
-![](media/4af75af0b53b39eb92eafa93f84063f6.png)![](media/2ea61e49910639aebc66ea15fd989666.png)![](media/237cce3122f9a55ba3a4306a953076aa.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone1/I4.1_positive_sample.png)![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone1/I4.2_negative_sample.png)![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone1/I4.3_test_sample.png)
 
 *Img. 4 Examples from our dataset. Left: negative training example. Middle:
 positive training example. Right: testing example.*
@@ -189,7 +189,7 @@ to the default value of 0.001. We trained the CNN for 20 epochs.
 
 ## 4. Comparison to previous models and analysis of results
 
-![](media/7b179d319f71fb3074b7813cb3371fa5.png)
+![](https://github.com/timmooren/hispa-cancer-detection/blob/main/docs/images/milestone1/G1_base_model_20_epochs.png)
 
 *Graph 1: Model loss and accuracy for the baseline model.*
 
@@ -278,7 +278,7 @@ Possible tweaks:
 
 References:
 
->   1\. 
+>   1\.
 >   <https://www.kaggle.com/c/histopathologic-cancer-detection/overview><https://www.kaggle.com/c/histopathologic-cancer-detection/overview>
 
 >   2\. Ehteshami Bejnordi et al. Diagnostic Assessment of Deep Learning
@@ -293,13 +293,13 @@ References:
 >   Equivariant CNNs for Digital Pathology".
 >   <http://arxiv.org/abs/1806.03962>[arXiv:1806.03962](http://arxiv.org/abs/1806.03962)
 
->   5\. 
+>   5\.
 >   <https://stats.stackexchange.com/questions/294349/hard-mining-hard-examples-does-hard-mean-anything-specific-in-stat><https://stats.stackexchange.com/questions/294349/hard-mining-hard-examples-does-hard-mean-anything-specific-in-stat>[SP2]
 
->   6\. 
+>   6\.
 >   <https://sci-hub.se/https:/www.sciencedirect.com/science/article/abs/pii/S0925231219316984>[https://sci-hub.se/https://www.sciencedirect.com/science/article/abs/pii/S0925231219316984](https://sci-hub.se/https:/www.sciencedirect.com/science/article/abs/pii/S0925231219316984)
 
->   7\. 
+>   7\.
 >   <https://camelyon16.grand-challenge.org/Data/><https://camelyon16.grand-challenge.org/Data/>
 
 >   Convolutional Neural Networks (CNN) generally provide the best results for
